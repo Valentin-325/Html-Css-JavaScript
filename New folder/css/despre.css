@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins' , sans-serif;
+}
+
+body {
+	background: #0a2a43;
+	
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+nav a {
+	color: #b3a5c2;
+	text-decoration: none;
+}
+
+/* culoare cand cursorul este pe buton */
+nav a:hover {
+	color: #595bd9;
+}
+
+
+
+#text {
+	left: 120px;
+	top: 250px; 
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	z-index: 1;
+	position: absolute;
+}
+
+

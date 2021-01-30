@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins' , sans-serif;
+}
+
+body {
+	background: #0a2a43;
+	min-height: 1000px;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+nav a {
+	color: #b3a5c2;
+	text-decoration: none;
+}
+
+/* culoare cand cursorul este pe buton */
+nav a:hover {
+	color: #595bd9;
+}
+
+
+
+#text {
+	left: 270px;
+	top: 80px; 
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	z-index: 1;
+	position: absolute;
+}
+
+section img {
+	position: absolute;
+	top: 250px;
+	left: 180px;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	pointer-events: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#video {
+	position: absolute;
+	top: 500px;
+	left: 230px;
+	width: 70%;
+	height: 60%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+ 
+
+#poza {
+	position: absolute;
+	top: 250px;
+	right: 180px;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	pointer-events: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+}
+
+#pozadoi {
+	position: absolute;
+	top: 250px;
+	right: 670px;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	pointer-events: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+}
+}

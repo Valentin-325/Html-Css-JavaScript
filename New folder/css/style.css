@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins' , sans-serif;
+}
+
+body {
+	background: #0a2a43;
+	min-height: 1000px;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+nav a {
+	color: #b3a5c2;
+	text-decoration: none;
+}
+
+/* culoare cand cursorul este pe buton */
+nav a:hover {
+	color: #595bd9;
+}
+
+
+section {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+section:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top, #0a2a43 ,transparent);
+	z-index: 10000;
+}
+
+section:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #0a2a43;
+	z-index: 10000;
+	mix-blend-mode: color;
+}
+
+section img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+
+}
+
+#text {
+	position: relative;
+	color: #fff;
+	font-size: 5em;
+	z-index: 1;
+}
+
+#text2 {
+	left: 280px;
+	top: 850px; 
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	z-index: 1;
+	position: absolute;
+}
+
+#text3{
+	right: 280px;
+	top: 850px; 
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	z-index: 1;
+	position: absolute;
+}
+
+#road {
+	z-index: 2;	
+}
+
+
+
+
+
+
